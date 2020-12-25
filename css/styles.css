@@ -398,11 +398,11 @@ textarea {
     content: "";
     display: block;
     height: 443px;
-    width: 225px;
+    width: 1120px;
     position: absolute;
     left: 50%;
     bottom: 0;
-    background: url(../images/header/phone-382.png) no-repeat center bottom;
+    background: url(../images/header/laptop.png) no-repeat center bottom;
     background-size: contain;
     transition: 0.2s linear all;
   }
@@ -464,12 +464,12 @@ textarea {
     display: block;
     width: 32vw;
     height: 51vw;
-    max-height: 624px;
-    max-width: 325px;
+    max-height: 790px;
+    max-width: 1120px;
     position: absolute;
     left: calc(50% + 150px);
-    bottom: 0;
-    background: url(../images/header/phone-382.png) no-repeat center bottom;
+    bottom: 60px;
+    background: url(../images/header/laptop.png) no-repeat center bottom;
     background-size: contain;
   }
 }
@@ -976,7 +976,7 @@ textarea {
 
 @media screen and (min-width: 860px) {
   .header {
-    background-image: url(../images/header/header_bg-1200.jpg);
+    background-image: url(../images/header/header.png);
   }
   .footer {
     background-image: url(../images/footer/bg-1200.jpg);
