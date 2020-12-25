@@ -676,38 +676,6 @@ textarea {
   text-align: center;
   color: #fff;
 }
-.social-link {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto auto 0;
-}
-.social-link__item {
-  display: block;
-  background-color: rgba(0, 0, 0, 0.302);
-  width: 42px;
-  height: 42px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 55%;
-  transition: transform 0.2s ease-in;
-}
-.social-link__item:hover {
-  transform: scale(1.07);
-}
-
-.social-link__item:not(:last-child) {
-  margin-right: 4px;
-}
-
-.twitter {
-  background-image: url(../images/social-icons/twitter.svg);
-}
-.facebook {
-  background-image: url(../images/social-icons/facebook.svg);
-}
-.linkedin {
-  background-image: url(../images/social-icons/linkedin.svg);
-}
 .list-team__name {
   font-size: 18px;
   color: rgb(6, 32, 51);
@@ -715,12 +683,6 @@ textarea {
   text-align: center;
   font-weight: 600;
   margin-bottom: 6px;
-}
-.list-team__position {
-  font-size: 13px;
-  color: rgba(6, 32, 51, 0.561);
-  line-height: 1.846;
-  text-align: center;
 }
 
 @media screen and (min-width: 600px) {
