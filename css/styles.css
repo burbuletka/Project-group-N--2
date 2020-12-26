@@ -181,7 +181,7 @@ textarea {
 
 .download {
   color: rgb(255, 255, 255);
-  background: rgb(51, 12, 244) url(../images/icons/cloud.svg) no-repeat 22px
+  background: rgb(48, 8, 71) url(../images/icons/cloud.svg) no-repeat 22px
     center;
   background-size: 32px;
   padding-left: 78px;
@@ -248,7 +248,7 @@ textarea {
 
 .logo {
   font-size: 26px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Langar', cursive;
   color: rgb(51, 12, 244);
   font-weight: bold;
   line-height: 1.385;
@@ -278,11 +278,12 @@ textarea {
   margin-bottom: 18px;
 }
 .menu__item-link:hover {
-  color: rgb(40, 37, 40);
+  color: rgb(177, 38, 177);
 }
 .menu__item-link {
+  font-family: 'Langar', cursive;
   font-size: 12px;
-  color: rgba(40, 37, 40, 0.6);
+  color: rgba(19, 18, 19, 0.6);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 3;
@@ -331,11 +332,12 @@ textarea {
 
 .title {
   font-size: 24px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Langar', cursive;
   font-weight: bold;
   line-height: 1.5;
 }
 .header-sub-title {
+  font-family: 'Langar', cursive;
   font-weight: 600;
   line-height: 1.625;
   margin-bottom: 17px;
@@ -353,6 +355,7 @@ textarea {
   margin-right: 16px;
 }
 .header-list__item {
+  font-family: 'Langar', cursive;
   display: flex;
   align-items: center;
   color: rgb(255, 255, 255);
@@ -398,11 +401,11 @@ textarea {
     content: "";
     display: block;
     height: 443px;
-    width: 225px;
+    width: 1120px;
     position: absolute;
     left: 50%;
     bottom: 0;
-    background: url(../images/header/phone-382.png) no-repeat center bottom;
+    background: url(../images/header/laptop2.png) no-repeat center bottom;
     background-size: contain;
     transition: 0.2s linear all;
   }
@@ -464,12 +467,12 @@ textarea {
     display: block;
     width: 32vw;
     height: 51vw;
-    max-height: 624px;
-    max-width: 325px;
+    max-height: 790px;
+    max-width: 1120px;
     position: absolute;
     left: calc(50% + 150px);
-    bottom: 0;
-    background: url(../images/header/phone-382.png) no-repeat center bottom;
+    bottom: 60px;
+    background: url(../images/header/laptop2.png) no-repeat center bottom;
     background-size: contain;
   }
 }
@@ -938,7 +941,7 @@ textarea {
 
 @media screen and (min-width: 860px) {
   .header {
-    background-image: url(../images/header/header_bg-1200.jpg);
+    background-image: url(../images/header/header.png);
   }
   .footer {
     background-image: url(../images/footer/bg-1200.jpg);
@@ -950,4 +953,12 @@ textarea {
     font-size: 28px;
     line-height: 1.286;
   }
+}
+
+.container {
+  color: #ede837;
+}
+
+.header-list__item {
+  color: #ede837;
 }
