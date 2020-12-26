@@ -402,7 +402,7 @@ textarea {
     position: absolute;
     left: 50%;
     bottom: 0;
-    background: url(../images/header/laptop.png) no-repeat center bottom;
+    background: url(../images/header/laptop2.png) no-repeat center bottom;
     background-size: contain;
     transition: 0.2s linear all;
   }
@@ -469,7 +469,7 @@ textarea {
     position: absolute;
     left: calc(50% + 150px);
     bottom: 60px;
-    background: url(../images/header/laptop.png) no-repeat center bottom;
+    background: url(../images/header/laptop2.png) no-repeat center bottom;
     background-size: contain;
   }
 }
@@ -988,4 +988,12 @@ textarea {
     font-size: 28px;
     line-height: 1.286;
   }
+}
+
+.container {
+  color: #ede837;
+}
+
+.header-list__item {
+  color: #ede837;
 }
