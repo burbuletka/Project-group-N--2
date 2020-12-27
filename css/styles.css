@@ -128,6 +128,17 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("../fonts/cyberpunk/fonts/cyberpunk-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+@font-face {
+  font-family: "Brokenbrush";
+  font-style: bold;
+  font-weight: bold;
+  src: local(""),
+    url("../fonts/brokenbrush/fonts/Brokenbrush.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/brokenbrush/fonts/Brokenbrush.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html,
 body,
 ::after,
@@ -136,7 +147,7 @@ body,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Langar", cursive;
   font-size: 16px;
 }
 
@@ -144,6 +155,10 @@ body,
 font-family: 'Raleway', sans-serif; 
 font-family: 'Open Sans', sans-serif;
 */
+
+body {
+  font-family: "Langar", cursive;
+}
 
 a {
   text-decoration: none;
@@ -1013,4 +1028,8 @@ textarea {
 .logo,
 .section-title {
   font-family: Cyberpunk;
+}
+
+.list-team__name {
+  font-family: Brokenbrush;
 }
