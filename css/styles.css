@@ -119,6 +119,26 @@
       format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@font-face {
+  font-family: "Cyberpunk";
+  font-style: normal;
+  font-weight: normal;
+  src: local(""),
+    url("../fonts/cyberpunk/fonts/cyberpunk-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cyberpunk/fonts/cyberpunk-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: "Brokenbrush";
+  font-style: bold;
+  font-weight: bold;
+  src: local(""),
+    url("../fonts/brokenbrush/fonts/Brokenbrush.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/brokenbrush/fonts/Brokenbrush.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html,
 body,
 ::after,
@@ -127,7 +147,7 @@ body,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Langar", cursive;
   font-size: 16px;
 }
 
@@ -135,6 +155,10 @@ body,
 font-family: 'Raleway', sans-serif; 
 font-family: 'Open Sans', sans-serif;
 */
+
+body {
+  font-family: "Langar", cursive;
+}
 
 a {
   text-decoration: none;
@@ -181,7 +205,7 @@ textarea {
 
 .download {
   color: rgb(255, 255, 255);
-  background: rgb(48, 8, 71) url(../images/icons/cloud.svg) no-repeat 22px
+  background: rgb(153, 1, 255) url(../images/icons/cloud.svg) no-repeat 22px
     center;
   background-size: 32px;
   padding-left: 78px;
@@ -248,7 +272,7 @@ textarea {
 
 .logo {
   font-size: 26px;
-  font-family: 'Langar', cursive;
+  font-family: "Langar", cursive;
   color: rgb(51, 12, 244);
   font-weight: bold;
   line-height: 1.385;
@@ -281,7 +305,7 @@ textarea {
   color: rgb(177, 38, 177);
 }
 .menu__item-link {
-  font-family: 'Langar', cursive;
+  font-family: "Langar", cursive;
   font-size: 12px;
   color: rgba(19, 18, 19, 0.6);
   font-weight: bold;
@@ -332,12 +356,12 @@ textarea {
 
 .title {
   font-size: 24px;
-  font-family: 'Langar', cursive;
+  font-family: "Langar", cursive;
   font-weight: bold;
   line-height: 1.5;
 }
 .header-sub-title {
-  font-family: 'Langar', cursive;
+  font-family: "Langar", cursive;
   font-weight: 600;
   line-height: 1.625;
   margin-bottom: 17px;
@@ -355,7 +379,7 @@ textarea {
   margin-right: 16px;
 }
 .header-list__item {
-  font-family: 'Langar', cursive;
+  font-family: "Langar", cursive;
   display: flex;
   align-items: center;
   color: rgb(255, 255, 255);
@@ -497,6 +521,7 @@ textarea {
 }
 
 .features .base-text {
+  font-family: "Langar", cursive;
   color: rgb(40, 37, 40);
   line-height: 1.625;
   text-align: center;
@@ -527,6 +552,7 @@ textarea {
   background-repeat: no-repeat;
 }
 .list-key__text {
+  font-family: "Langar", cursive;
   font-size: 13px;
   color: rgb(40, 37, 40);
   line-height: 1.846;
@@ -587,7 +613,7 @@ textarea {
 @media screen and (min-width: 992px) {
   .features {
     padding-bottom: 138px;
-    background: url(../images/features/phone-418.png) no-repeat center bottom;
+    background: url(../images/features/phone-4183.png) no-repeat center 270px;
     background-size: 37vw;
   }
   .features .section-title {
@@ -635,6 +661,7 @@ textarea {
   margin-bottom: 26px;
 }
 .team .base-text {
+  font-family: "Langar", cursive;
   color: #062033;
   font-weight: 600;
   line-height: 1.5;
@@ -956,9 +983,18 @@ textarea {
 }
 
 .container {
-  color: #ede837;
+  color: #e5ff00;
 }
 
 .header-list__item {
   color: #ede837;
+}
+
+.logo,
+.section-title {
+  font-family: Cyberpunk;
+}
+
+.list-team__name {
+  font-family: Brokenbrush;
 }
