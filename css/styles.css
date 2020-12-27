@@ -1010,6 +1010,7 @@ textarea {
   color: #ede837;
 }
 
-.logo {
+.logo,
+.section-title {
   font-family: Cyberpunk;
 }
