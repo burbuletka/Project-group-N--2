@@ -683,7 +683,7 @@ textarea {
 .list-team__img-cont {
   position: relative;
   width: 263px;
-  height: 300px;
+  /* height: 300px; */
   overflow: hidden;
   margin: 0 auto 20px;
 }
