@@ -837,13 +837,17 @@ textarea {
 }
 
 .footer-contact__social-link.facebook {
-  background-color: rgb(59, 89, 151);
+  background: rgb(59, 89, 151) url(../images/social-icons/facebook.svg)
+    no-repeat center;
+  background-size: 55%;
 }
 .footer-contact__social-link.twitter {
-  background-color: #3ec2f3;
+  background: #3ec2f3 url(../images/social-icons/twitter.svg) no-repeat center;
+  background-size: 55%;
 }
 .footer-contact__social-link.linkedin {
-  background-color: #007ab9;
+  background: #007ab9 url(../images/social-icons/linkedin.svg) no-repeat center;
+  background-size: 55%;
 }
 .contact__wrp:not(:last-child) {
   margin-bottom: 6px;
