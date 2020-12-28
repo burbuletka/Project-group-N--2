@@ -535,7 +535,7 @@ textarea {
   display: flex;
   align-items: center;
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   color: rgb(40, 37, 40);
   font-weight: bold;
   line-height: 1;
