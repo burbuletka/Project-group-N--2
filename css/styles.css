@@ -424,8 +424,8 @@ textarea {
   .header::after {
     content: "";
     display: block;
-    height: 443px;
-    width: 1120px;
+    height: 270px;
+    width: 400px;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -793,7 +793,7 @@ textarea {
   text-align: center;
 }
 .contact-us__submit {
-  background-color: rgb(49, 212, 231);
+  background: rgb(153, 1, 255);
   font-size: 22px;
   color: rgb(255, 255, 255);
   min-width: 171px;
