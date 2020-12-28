@@ -804,7 +804,7 @@ textarea {
 }
 .footer-contact__title {
   font-size: 24px;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-weight: normal;
   color: rgb(255, 255, 255);
   margin-bottom: 14px;
